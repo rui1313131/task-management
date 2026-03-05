@@ -1,0 +1,45 @@
+name: タスク / Task
+description: 通常のタスクを作成します
+title: "[Task] "
+labels: ["type: task"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        タスクの詳細を記入してください。
+
+  - type: textarea
+    id: description
+    attributes:
+      label: タスクの内容 / Description
+      description: 何をするのか具体的に書いてください
+      placeholder: 例：ログイン画面のUIを修正する
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 優先度 / Priority
+      options:
+        - high（高）
+        - medium（中）
+        - low（低）
+    validations:
+      required: true
+
+  - type: input
+    id: deadline
+    attributes:
+      label: 期限 / Deadline
+      description: 期限がある場合は記入してください（例：2026-03-31）
+      placeholder: YYYY-MM-DD
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 完了条件 / Acceptance Criteria
+      description: タスクが完了したと判断できる条件を書いてください
+      placeholder: |
+        - [ ] 条件1
+        - [ ] 条件2

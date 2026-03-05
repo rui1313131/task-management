@@ -1,0 +1,53 @@
+name: バグ報告 / Bug Report
+description: バグや不具合を報告します
+title: "[Bug] "
+labels: ["type: bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        バグの詳細を記入してください。
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: バグの概要 / Summary
+      description: 何が起きているか簡潔に説明してください
+      placeholder: 例：ボタンを押してもページが遷移しない
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 再現手順 / Steps to Reproduce
+      description: バグを再現する手順を書いてください
+      placeholder: |
+        1. トップページにアクセスする
+        2. ログインボタンをクリックする
+        3. エラーが発生する
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期待される動作 / Expected Behavior
+      placeholder: 例：ログインページに遷移する
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: 実際の動作 / Actual Behavior
+      placeholder: 例：エラーメッセージが表示されてページが遷移しない
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 優先度 / Priority
+      options:
+        - high（高）
+        - medium（中）
+        - low（低）
+    validations:
+      required: true

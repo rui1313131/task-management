@@ -1,0 +1,38 @@
+name: 機能提案 / Feature Request
+description: 新しい機能を提案します
+title: "[Feature] "
+labels: ["type: feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        機能提案の詳細を記入してください。
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: 背景・目的 / Motivation
+      description: なぜこの機能が必要なのか説明してください
+      placeholder: 例：現在は手動で集計しているが、自動化することで作業効率を上げたい
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 機能の詳細 / Feature Description
+      description: 実装してほしい機能を具体的に書いてください
+      placeholder: 例：月次レポートを自動生成してメールで送信する機能
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 優先度 / Priority
+      options:
+        - high（高）
+        - medium（中）
+        - low（低）
+    validations:
+      required: true
