@@ -74,7 +74,7 @@ Projects = タスクの「状態」を視覚化するボード（全体の進捗
 2. 右サイドバーの **[Projects]** をクリック
 3. ボード名を選択
 
-![Issueのサイドバー Projects欄](docs/images/issue-add-project.png)
+
 
 ### 方法B：自動化を設定する（推奨・一度だけ設定）
 
@@ -171,8 +171,7 @@ Trello・Notionのボード機能と同じイメージです。
 ### Projectsボードで変える（推奨）
 
 ボードを開き、カードを**ドラッグ＆ドロップ**で列間を移動するだけ。
-
-![カードをドラッグ](docs/images/drag-card.png)
+<img width="1079" height="684" alt="5" src="https://github.com/user-attachments/assets/32423b4f-0a8e-4508-9afd-6ea3d9c533fa" />
 
 ### Issueのラベルで補足する
 
@@ -189,6 +188,8 @@ Trello・Notionのボード機能と同じイメージです。
 ## 7. 進捗コメントを書く
 
 Issue を開いて、下部のコメント欄に記入 → **[Comment]** で投稿。
+
+<img width="991" height="281" alt="6" src="https://github.com/user-attachments/assets/e0f3c179-eb5a-49bc-9122-483a04d62c39" />
 
 **進捗報告のテンプレート例：**
 
