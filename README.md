@@ -85,7 +85,7 @@ Projects = タスクの「状態」を視覚化するボード（全体の進捗
 3. **[Auto-add to project]** を選択
 4. フィルター条件（例：`is:issue`）を設定 → **[Save and turn on workflow]**
 
-![Workflowsの設定](docs/images/project-workflow.png)
+
 
 ---
 
